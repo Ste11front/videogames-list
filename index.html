@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./model/videogame.js"></script>
+    <script src="./model/playstation4.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Top 10<br>PS4 First Party</h1>
+    </header>
+    <main>
+        <button onclick="sortCardByTitleAZ()">Ordina per Titolo (A-Z)</button>
+        <button onclick="sortCardByTitleZA()">Ordina per Titolo (Z-A)</button>
+        <button onclick="sortCardByYopAsc()">Ordina per Anno di Pubblicazione (Ascendente)</button>
+        <button onclick="sortCardByYopDes()">Ordina per Anno di Pubblicazione (Discendente)</button>
+        <div id="main-container">
+            <div class="card">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
