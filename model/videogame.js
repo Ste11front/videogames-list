@@ -1,8 +1,9 @@
 class Videogame{
 
-  constructor(title, yob){
+  constructor(title, yob, image){
     this.title = title;
     this.yob = yob;
+    this.image = image
   }
     
   toStringTitle(){
@@ -13,6 +14,10 @@ class Videogame{
   toStringYop(){
   
     return 'Anno di pubblicazione: ' + this.yob + '\n';
+  }
+
+  toStringImage(){
+    return 'this is image' + this.image;
   }
     
 }
