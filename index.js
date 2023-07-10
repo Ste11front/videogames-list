@@ -2,7 +2,7 @@
 // e che possa essere messa in ordine per nome e anno di pubblicazione
 
 const v1 = new Videogame('\"Uncharted 4: A Thief\'s End\"', 2016, './assets/U4.jpg'); 
-const v2 = new Videogame('\"Uncharted: The Lost Legacy\"', 2017, './assets/UnTLL.jpg'); 
+const v2 = new Videogame('\"Uncharted: The Lost Legacy\"', 2017, './assets/UNTLL.jpg'); 
 const v3 = new Videogame('\"The Last of Us Part II\"', 2020, './assets/TLOUII.jpg'); 
 const v4 = new Videogame('\"Detroit: Become Human\"', 2018, './assets/DBH.jpg'); 
 const v5 = new Videogame('\"God of War\"', 2018, './assets/GoW.jpg'); 
