@@ -34,8 +34,8 @@ h1 {
 button {
     
     margin: auto;
-    margin-left: 170px;
-    margin-right: auto;
+    margin-left: 150px;
+    /* margin-right: 0px; */
     margin-bottom: 30px;
     margin-top: 15px;
     width: 30%; 
