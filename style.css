@@ -73,7 +73,7 @@ button:active {
     flex-wrap: wrap;
 }
 
-@media (max-width:480px) {
+/* @media (max-width:480px) {
 
     .videogame-div {
         width: 100%;
@@ -89,7 +89,7 @@ button:active {
         gap: 10px;
         font-size: 23px;
     }
-}
+} */
 
 @media (max-width:480px) {
     
@@ -112,7 +112,7 @@ button:active {
     button {
         width: 25%;
         padding: 2px;
-        margin-left: 150px;
+        margin-left: 20px;
         font-size: 13px;
         margin: 20px 10px 30px 10px;
     }
@@ -124,7 +124,7 @@ button:active {
 
         width: 25%;
         padding: 2px;
-        margin-left: 150px;
+        margin-left: 20px;
         font-size: 12px;
         margin: 20px 10px 30px 16px;
     }
