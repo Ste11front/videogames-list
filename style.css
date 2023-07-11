@@ -35,7 +35,7 @@ h1 {
 button {
     
     margin: auto;
-    margin-left: 170px;
+    margin-left: 150px;
     margin-right: auto;
     margin-bottom: 30px;
     margin-top: 15px;
@@ -112,7 +112,7 @@ button:active {
     button {
         width: 25%;
         padding: 2px;
-        margin-left: 20px;
+        margin-left: 150px;
         font-size: 13px;
         margin: 20px 10px 30px 10px;
     }
@@ -124,7 +124,7 @@ button:active {
 
         width: 25%;
         padding: 2px;
-        margin-left: 20px;
+        margin-left: 150px;
         font-size: 12px;
         margin: 20px 10px 30px 16px;
     }
