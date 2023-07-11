@@ -77,7 +77,7 @@ button:active {
 
     .videogame-div {
         width: 100%;
-        /* gap: 10px; */
+        gap: 10px;
 
     }
 }
@@ -86,8 +86,8 @@ button:active {
 
     .videogame-div {
         width: 100%;
-        /* gap: 10px; */
-        font-size: 20px;
+        gap: 10px;
+        font-size: 18px;
     }
 }
 
