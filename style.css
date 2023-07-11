@@ -11,7 +11,7 @@
     width: 50%;
     margin-bottom: 30px;
     background-color: rgb(22, 104, 197);
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     flex-wrap: wrap;
 }
 
@@ -22,19 +22,20 @@ body {
 
 h1 {
 
-    font-size: 75px;
-    color: rgb(20, 27, 43);
+    font-size: 85px;
+    color: rgb(3, 12, 32);
     margin: auto;
     text-align: center;
     margin-bottom: 40px;
     text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
     margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 button {
     
     margin: auto;
-    margin-left: 130px;
+    margin-left: 170px;
     margin-right: auto;
     margin-bottom: 30px;
     margin-top: 15px;
@@ -43,15 +44,26 @@ button {
     border: 6px solid rgb(14, 53, 124);
     color: ivory;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(22, 104, 197);
     font-size: 25px;
+    border-radius: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+
+button:focus {
+
+    outline: auto;
+}
+  
+button:active {
+
+    box-shadow: 0px 0px 5px #888, inset 0px 0px 50px #888;
 }
 
 .videogame-div img {
+
     width: 100%;
-
-
 }
 
 .main-container {
@@ -59,4 +71,18 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        font-size: 20px;
+        padding: 5px;
+        border-width: 4px;
+        border-radius: 8px 8px 8px 8px;
+    }
 }
