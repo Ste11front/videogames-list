@@ -35,7 +35,7 @@ h1 {
 button {
     
     margin: auto;
-    margin-left: 150px;
+    margin-left: 170px;
     margin-right: auto;
     margin-bottom: 30px;
     margin-top: 15px;
@@ -82,28 +82,11 @@ button:active {
     }
 }
 
-@media (max-width:768px) {
-
-    .videogame-div {
-        width: 100%;
-        gap: 10px;
-        font-size: 18px;
-    }
-}
-
 @media (max-width:480px) {
     
     h1 {
         font-size: 53px;
         margin: 0;
-    }
-}
-
-@media (max-width:768px) {
-    
-    h1 {
-        font-size: 53px;
-        margin: 20px 0px
     }
 }
 
@@ -115,6 +98,24 @@ button:active {
         margin-left: 20px;
         font-size: 13px;
         margin: 20px 10px 30px 10px;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .videogame-div {
+        width: 100%;
+        gap: 10px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    
+    h1 {
+        font-size: 53px;
+        margin: 20px 0px
     }
 }
 
