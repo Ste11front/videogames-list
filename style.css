@@ -20,16 +20,20 @@ body {
     background-color: lightsteelblue;
 }
 
-h1 {
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 104, 197);
+    border: 10px solid rgb(14, 53, 124);
+}
 
+h1{
+    margin: 0%;
     font-size: 85px;
     color: rgb(3, 12, 32);
-    margin: auto;
-    text-align: center;
-    margin-bottom: 40px;
-    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
-    margin-top: 10px;
+    text-shadow: -1px 0 ivory, 0 1px ivory, 1px 0 ivory, 0 -1px ivory;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 button {
@@ -130,5 +134,3 @@ button:active {
         margin: 20px 10px 30px 16px;
     }
 }
-
-/* 1024 1200 over 1201 */
