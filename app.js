@@ -1,5 +1,4 @@
-// Applicazione che mostri una lista di videogiochi 
-// e che possa essere messa in ordine per nome e anno di pubblicazione
+// Applicazione che mostri una lista di videogiochi e che possa essere messa in ordine per nome e anno di pubblicazione
 
 const v1 = new Videogame('\"Uncharted 4: A Thief\'s End\"', 2016, './assets/U4.jpg'); 
 const v2 = new Videogame('\"Uncharted: The Lost Legacy\"', 2017, './assets/UNTLL.jpg'); 
